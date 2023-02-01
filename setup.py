@@ -24,6 +24,6 @@ setuptools.setup(name="gas_dynamics",
       license="MIT",
       python_requires=">=3.6",
       tests_require=['pytest'],
-      setup_requires=["numpy==1.19.3", "pytest-runner"],
-      install_requires=["numpy==1.19.3", "scipy", "matplotlib"]
+      setup_requires=["numpy", "pytest-runner"],
+      install_requires=["numpy", "scipy", "matplotlib"]
 )
