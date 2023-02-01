@@ -25,5 +25,5 @@ setuptools.setup(name="gas_dynamics",
       python_requires=">=3.6",
       tests_require=['pytest'],
       setup_requires=["numpy==1.19.3", "pytest-runner"],
-      install_requires=["numpy==1.19.3", "scipy", "matplotlib==3.3.2"]
+      install_requires=["numpy==1.19.3", "scipy", "matplotlib"]
 )
